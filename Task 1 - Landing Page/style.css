@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 0 100px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.left h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.middle ul li {
+    display: inline;
+    padding: inherit;
+    margin: 0 15px;
+}
+
+.middle ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    padding: inherit;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+}
+
+.middle ul li a:hover {
+    border-bottom: 2px solid #c1121f;
+}
+
+.right-side .search {
+    display: flex;
+    align-items: center;
+}
+
+.right-side .search input {
+    padding: 5px 30px 5px 10px;
+    border: 1 px solid #333;
+    border-radius: 20px;
+    color: #333;
+    background-color: #fff;
+}
+
+.right-side .search i {
+    margin-left: -30px;
+    color: #333;
+    cursor: pointer;
+}
+.fa-search {
+    margin-right: 25px;
+}
+
+.fa-search:before {
+    content: "\f002";
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.creative-section {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MFD2Y2eYOstkPrZHgUDqwCnTrbgRNTPj_Wx8QG0RLVC2TMasuKvxBccmpzW3SWMn8Q&usqp=CAU') no-repeat center center;
+    background-size: cover;
+    text-align: left;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    padding: 0 100px;
+    justify-content: start;
+    align-items: center;
+}
+
+.creative-section .content {
+    padding: 20px;
+    margin: 5px;
+    border-left: 3px solid #fe7f2d;
+    display: inline-block;
+}
+
+.creative-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.creative-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.creative-section .buttons {
+    margin-top: 20px;
+}
+
+.creative-section .buttons button {
+    background-color: #d00000;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    padding: 7px 14px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.creative-section .buttons button:hover {
+    background-color: #6a040f;
+}
+
+.services-section {
+    background-color: #f4f4f4;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-card i {
+    font-size: 36px;
+    color: #333;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.service-card {
+    height: 8em;
+    width: 22em;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.service-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    display: flex;
+    padding: 50px 100px;
+}
+
+.about-us {
+    margin: 20px;
+    padding: 25px;
+}
+
+.about-us h1,h3,p {
+    margin-bottom: 15px;
+}
+
+.about-us .buttons {
+    margin-top: 20px;
+}
+
+.about-us .buttons button {
+    background-color: #0077b6;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    padding: 4px 9px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.about-us .buttons button:hover {
+    background-color: #03045e;
+}
+
+.services {
+    background-color: #f8f8f8;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.our-services {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.our-services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.our-service-card {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.our-service-card img {
+    width: 300px;
+    height: 200px;
+    border-bottom: 1px solid #333;
+}
+
+.service-description {
+    padding: 5px;
+}
+
+.service-title {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #000;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 100px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-left .social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-left .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-middle .contact-info {
+    font-size: 16px;
+}
+
+.footer-middle .contact-info i {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.footer-right .request-consult-button {
+    background-color: #d00000;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-right .request-consult-button:hover {
+    background-color: #6a040f;
+}
