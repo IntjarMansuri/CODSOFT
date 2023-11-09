@@ -4,12 +4,12 @@
 - Created a landing page using HTML and CSS.
 - Incorporated modern design elements for an engaging user experience.
 
-- ## Task 2: Personal Portfolio (HTML and CSS)
+## Task 2: Personal Portfolio (HTML and CSS)
 - Designed and developed a personal portfolio website.
 - Leveraged HTML and CSS to showcase skills and projects.
 - Ensured an aesthetically pleasing and user-friendly layout.
 
-- ## Task 3: Calculator (HTML, CSS, and JavaScript)
+## Task 3: Calculator (HTML, CSS, and JavaScript)
 - Developed a fully functional calculator using HTML, CSS, and JavaScript.
 - Implemented mathematical operations and ensured accurate calculations.
 - Enhanced user interactivity and user experience with JavaScript.
